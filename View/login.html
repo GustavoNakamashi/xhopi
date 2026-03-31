@@ -1,11 +1,115 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <link type="text/css" href="login.css">
-    <title>Login Xhopi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../assets/img/style.css">
+    <title>Login Xhopii</title>
 </head>
 <body>
-    <img src="logo.png">
+    <header>
+        <section class="cabecalho">
+            <img src="../assets/img/logo.png" alt="Logo">
+            <span>Entre</span>
+
+            <div class="precisa-ajuda">
+                <a href="#">Precisa de ajuda?</a>
+        </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="centro_pagina">
+            <section class="meio">
+                <h2>Login</h2>
+                <div class="preecher">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="exemplo@gmail.com">
+
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" placeholder="1234">
+                </div>
+
+                <button type="button" class="btn-laranja" onclick="location.href='home.html'">
+                    Entre
+                </button>
+
+                <div class="links-alternativos">
+                    <a href="RdefinirSenha.html">Esqueci a senha</a>
+                    <a href="#">Fazer login com SMS</a>
+                </div>
+                
+                <div class="separar">
+                    <hr> <span>ou</span> <hr>
+                </div>
+                
+                <div class="rede-social">
+                    <button type="button"><img src="../assets/img/logo-facebook.png">Facebook</button>
+                    <button type="button"><img src="../assets/img/logo-google.png">Google</button>
+                    <button type="button"><img src="../assets/img/logo-apple.png">Apple</button>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer class="rodape_detalhado">
+        <div class="container_footer">
+            <div class="coluna_footer">
+                <h3>ATENDIMENTO AO CLIENTE</h3>
+                <ul>
+                    <li>Central de Ajuda</li>
+                    <li>Como Comprar</li>
+                    <li>Pagamento</li>
+                    <li>Garantia Xhopii</li>
+                    <li>Devolução e Reembolso</li>
+                </ul>
+            </div>
+
+            <div class="coluna_footer">
+                <h3>SOBRE A XHOPII</h3>
+                <ul>
+                    <li>Sobre Nós</li>
+                    <li>Políticas Xhopii</li>
+                    <li>Privacidade</li>
+                    <li>Seja um Entregador</li>
+                </ul>
+            </div>
+
+            <div class="coluna_footer">
+                <h3>PAGAMENTO</h3>
+                <div class="grid_pagamento">
+                    <img src="../assets/img/logo-visa.png" alt="Visa">
+                    <img src="../assets/img/logo-mastercard.png" alt="Master">
+                    <img src="../assets/img/logo-elo.png" alt="Elo">
+                </div>
+            </div>
+
+            <div class="coluna_footer">
+                <h3>SIGA-NOS</h3>
+                <ul class="redes_sociais_lista">
+                    <li><img src="../assets/img/logo-instagram.png"> Instagram</li>
+                    <li><img src="../assets/img/logo-facebook.png"> Facebook</li>
+                </ul>
+            </div>
+
+            <div class="coluna_footer">
+                <h3>BAIXE O APP XHOPII</h3>
+                <div class="container_qrcode">
+                    <img src="../assets/img/qr-code.png" alt="QR Code" class="img_qr">
+                    <div class="apps_links">
+                        <img src="../assets/img/logo-google-play.png" alt="Google Play">
+                        <img src="../assets/img/logo-store-apple.png" alt="App Store">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <hr>
+            <p>&copy; 2026 Xhopii. Todos os direitos acadêmicos reservados.</p>
+        </div>
+    </footer>
+    <footer>
+        <p>&copy; 2026 Xhopii. Todos os direitos acadêmicos reservados.</p>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,208 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 245, 245); 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: rgb(255, 255, 255); 
+    gap: 15px;
+    border-bottom: 1px solid rgb(221, 221, 221); 
+}
+
+header .cabecalho .precisa-ajuda a {
+    margin-right: 10%;
+    text-decoration: none;
+    color: rgb(238, 77, 45);
+    font-size: 14px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.cabecalho img {
+    height: 40px;
+ }
+
+
+main {
+    flex: 1; 
+    background-color: rgb(238, 77, 45); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.centro_pagina {
+    width: 100%;
+    max-width: 400px;
+}
+
+.meio {
+    background-color: rgb(255, 255, 255); 
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.meio h2 {
+    margin-bottom: 20px;
+    font-weight: normal;
+    color: rgb(34, 34, 34); 
+}
+
+/* Inputs e Labels */
+.preecher {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.preecher label {
+    font-size: 14px;
+    color: rgb(85, 85, 85); 
+}
+
+.preecher input {
+    padding: 12px;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 2px;
+}
+
+.btn-laranja {
+    background-color: rgb(238, 77, 45); 
+    color: rgb(255, 255, 255); 
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+.links-alternativos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.links-alternativos a {
+    color: rgb(0, 85, 170); 
+    text-decoration: none;
+}
+
+
+.separar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    color: rgb(187, 187, 187);
+}
+
+.separar hr {
+    flex: 1;
+    border: 0;
+    border-top: 1px solid rgb(238, 238, 238);
+}
+
+
+.rede-social {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.rede-social button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
+    padding: 8px 2px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.rede-social img 
+{
+    width: 16px;
+}
+
+
+footer 
+{
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+}
+.rodape_detalhado 
+{
+    background-color: rgb(250, 250, 250);
+    padding: 40px 10% 20px 10%;
+}
+
+.container_footer 
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.coluna_footer h3 
+{
+    font-size: 12px;
+    color: rgb(0, 0, 0, 0.87);
+    margin-bottom: 15px;
+}
+
+.coluna_footer ul 
+{
+    list-style: none;
+    padding: 0;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+
+.coluna_footer li 
+{ 
+    margin-bottom: 8px; 
+}
+
+.redes_sociais_lista li 
+{
+    display: flex; align-items: center; gap: 5px; 
+}
+
+.redes_sociais_lista img 
+{
+    width: 16px;
+}
+
+.copyright 
+{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+}
