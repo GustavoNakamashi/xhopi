@@ -206,3 +206,9 @@ footer
     font-size: 12px;
     color: rgb(153, 153, 153);
 }
+.btn-voltar
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
