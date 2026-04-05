@@ -1,0 +1,110 @@
+/*inicio tags documento inteiro*/
+
+.body {
+    margin: 0;
+}
+
+/*fim tags documento inteiro*/
+
+/*Início cabeçalho*/
+.cabecalho {
+    background-color: rgb(225, 96, 61);
+    width: 100%;
+    height: 100px;
+    display: flex;
+
+}
+
+.cabecalho h1{
+    font-size: 55px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.tamanho-img-logo {
+    width: 70px;
+    height: 70px;
+}
+
+/*Fim cabeçalho*/
+
+/*Início barra navegação*/
+
+.barra-navegacao {
+    background-color: rgb(215, 215, 215);
+}
+
+.itens-navegacao {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 20%;
+}
+
+.itens-navegacao h4 {
+    color: rgb(225, 96, 61);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Fim barra navegação*/
+
+/*Início Parte Principal*/
+
+.centro {
+    display: flex;
+    margin-left: 13%;
+    margin-top: 3%;
+}
+
+.coluna-imagens img {
+    height: 97px;
+    width: 97px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.6;
+}
+
+.imagem-principal img {
+    height: 500px;
+    width: 500px;
+    display: flex;
+}
+
+.info-img-principal h1 {
+    margin-top: 0%;
+    font-size: 30px;
+}
+
+#info-img-principal-p {
+    font-size: 24px;
+    color:rgb(225, 96, 61);
+}
+
+#info-img-principal-p2 {
+    margin-top: -13px;
+}
+
+#info-img-principal-p3 {
+    margin-top: -5px;
+}
+
+.info-img-principal-botoes button{
+    background-color: rgb(255, 255, 255);
+    padding: 9px;
+    border: 1px groove;
+    margin: 7px;
+    
+}
+
+#info-botao-comprar {
+    background-color: rgb(225, 96, 61);
+    padding: 19px;
+    border: 1px groove;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/*Fim parte principal*/
+
+/*Eu odeio front-end do fundo da minha alma*/
