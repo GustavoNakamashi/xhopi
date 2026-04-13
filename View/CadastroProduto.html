@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="../assets/img/style3.css">
+  <title>Xhopii - Cadastrar Produto</title>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <a href="#" class="logo">
+      <div class="logo-icon"><img src="../assets/img/logo.png" alt=""></div>
+      <span>Xhopii</span>
+    </a>
+    <a href="#" class="btn-sair">Sair</a>
+  </header>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Cadastro Cliente</a>
+    <a href="#">Cadastro Funcionário</a>
+    <a href="#">Cadastro Produto</a>
+    <a href="#">Ver Clientes</a>
+    <a href="#">Ver Funcionários</a>
+    <a href="#">Ver Produtos</a>
+  </nav>
+
+  <!-- MAIN -->
+  <main>
+    <div class="card-form">
+      <h2>Cadastrar Produto</h2>
+
+      <form>
+        <input type="text" placeholder="Nome" />
+        <input type="text" placeholder="Fabricante" />
+        <input type="text" placeholder="Descrição" />
+        <input type="text" placeholder="Valor" />
+        <input type="text" placeholder="Quantidade" />
+
+        <label class="label-foto">Selecionar foto do produto:</label>
+
+        <div class="file-row">
+          <label class="btn-escolher" for="foto">Escolher arquivo</label>
+          <input type="file" id="foto" style="display:none" accept="image/*"
+            onchange="document.getElementById('file-name').textContent = this.files[0] ? this.files[0].name : 'Nenhum arquivo escolhido'" />
+          <span class="file-name" id="file-name">Nenhum arquivo escolhido</span>
+        </div>
+
+        <button type="submit" class="btn-cadastrar">CADASTRAR</button>
+      </form>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+
+      <!-- Atendimento -->
+      <div class="footer-col">
+        <h4>Atendimento ao Cliente</h4>
+        <ul>
+          <li><a href="#">Central de Ajuda</a></li>
+          <li><a href="#">Como Comprar</a></li>
+          <li><a href="#">Métodos de Pagamento</a></li>
+          <li><a href="#">Garantia Xhopii</a></li>
+          <li><a href="#">Devoluções e Reembolsos</a></li>
+          <li><a href="#">Fale Conosco</a></li>
+          <li><a href="#">Ouvidoria</a></li>
+        </ul>
+      </div>
+
+      <!-- Sobre -->
+      <div class="footer-col">
+        <h4>Sobre a Xhopii</h4>
+        <ul>
+          <li><a href="#">Sobre Nós</a></li>
+          <li><a href="#">Políticas Xhopii</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Programa de Afiliados da Xhopii</a></li>
+          <li><a href="#">Seja um Empregado Xhopii</a></li>
+          <li><a href="#">Ofertas de Emprego</a></li>
+          <li><a href="#">Xhopii Blog</a></li>
+          <li><a href="#">Imprensa</a></li>
+        </ul>
+      </div>
+
+      <!-- Pagamento -->
+      <div class="footer-col">
+        <h4>Pagamento</h4>
+        <div class="payment-icons">
+          <span class="pay-badge visa"><img src="../assets/img/logo-visa.png" alt=""></span>
+          <span class="pay-badge master"><img src="../assets/img/logo-mastercard.png" alt=""></span>
+          <span class="pay-badge elo"><img src="../assets/img/logo-elo.png5" alt=""></span>
+        </div>
+      </div>
+
+      <!-- Siga-nos -->
+      <div class="footer-col">
+        <h4>Siga-nos</h4>
+        <ul class="social-list">
+          <li><i class="fab fa-instagram"><img src="../assets/img/logo-instagram.png" alt=""></i> Instagram</li>
+          <li><i class="fab fa-twitter"><img src="../assets/img/logo-twitter.png" alt=""></i> Twitter</li>
+          <li><i class="fab fa-facebook-f"><img src="../assets/img/logo-facebook-cicle.png" alt=""></i> Facebook</li>
+          <li><i class="fab fa-youtube"><img src="../assets/img/logo-youtube.png" alt=""></i> YouTube</li>
+          <li><i class="fab fa-linkedin-in"><img src="../assets/img/logo-linkedln.png" alt=""></i> LinkedIn</li>
+        </ul>
+      </div>
+
+        <div class="app-store-links">
+          <a href="#" class="app-btn"><i class="fab fa-google-play"><img src="../assets/img/logo-google-play.png" alt=""></i> Google Play</a>
+          <a href="#" class="app-btn"><i class="fab fa-apple"><img src="../assets/img/logo-app" alt=""></i> App Store</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © 2023 Xhopii. Todos os direitos acadêmicos reservados
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
