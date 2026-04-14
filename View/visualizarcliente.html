@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xhopii - Visualizar Cliente</title>
+    <link rel="stylesheet" href="../assets/img/style6.css ">
+</head>
+<body>
+
+    <header class="topo">
+        <div class="logo-area">
+            <img src="../assets/img/logo.png" alt="Logo Xhopii">
+            <span>Sair</span>
+        </div>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="cadastrarCliente.html">Cadastro Cliente</a></li>
+                <li><a href="CadastroProduto.html">Cadastro Produto</a></li>
+                <li><a href="home.html">Ver Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="visualizar-section">
+            <div class="visualizar-container">
+                <h2>DADOS DO CLIENTE</h2>
+                
+                <div class="cliente-info">
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <label>Código:</label>
+                            <span>001</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <label>Nome Completo:</label>
+                            <span>João da Silva Santos</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <label>CPF:</label>
+                            <span>123.456.789-00</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <label>RG:</label>
+                            <span>12.345.678-9</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <label>Data de Nascimento:</label>
+                            <span>15/03/1990</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <label>E-mail:</label>
+                            <span>joao.silva@email.com</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <label>Telefone:</label>
+                            <span>(11) 98765-4321</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <label>Celular:</label>
+                            <span>(11) 99876-5432</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <label>CEP:</label>
+                            <span>01234-567</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <label>Endereço:</label>
+                            <span>Rua das Flores, 123</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <label>Complemento:</label>
+                            <span>Apto 45</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <label>Bairro:</label>
+                            <span>Jardim Primavera</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <label>Cidade/UF:</label>
+                            <span>São Paulo / SP</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <label>Data de Cadastro:</label>
+                            <span>10/01/2024</span>
+                        </div>
+                        
+                        <div class="info-item">
+                            <label>Status:</label>
+                            <span class="status-ativo">ATIVO</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="historico-compras">
+                    <h3>HISTÓRICO DE COMPRAS</h3>
+                    <table class="tabela-historico">
+                        <thead>
+                            <tr>
+                                <th>Pedido</th>
+                                <th>Data</th>
+                                <th>Produto</th>
+                                <th>Quantidade</th>
+                                <th>Valor Total</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#001</td>
+                                <td>15/03/2024</td>
+                                <td>Camiseta Desenvolvedor Front-End</td>
+                                <td>2</td>
+                                <td>R$ 100,00</td>
+                                <td><span class="status-entregue">Entregue</span></td>
+                            </tr>
+                            <tr>
+                                <td>#002</td>
+                                <td>20/02/2024</td>
+                                <td>Mouse Gamer RGB</td>
+                                <td>1</td>
+                                <td>R$ 150,00</td>
+                                <td><span class="status-entregue">Entregue</span></td>
+                            </tr>
+                            <tr>
+                                <td>#003</td>
+                                <td>05/01/2024</td>
+                                <td>Teclado Mecânico</td>
+                                <td>1</td>
+                                <td>R$ 300,00</td>
+                                <td><span class="status-entregue">Entregue</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="botoes-acao">
+                    <button class="btn-voltar" onclick="window.history.back()">VOLTAR</button>
+                    <button class="btn-editar" onclick="window.location.href='editar-cliente.html'">EDITAR</button>
+                    <button class="btn-imprimir" onclick="window.print()">IMPRIMIR</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="footer-grid">
+            <div>
+                <h4>ATENDIMENTO AO CLIENTE</h4>
+                <p>Central de Ajuda</p>
+                <p>Como Comprar</p>
+                <p>Frete e Entrega</p>
+            </div>
+            <div>
+                <h4>SOBRE A XHOPII</h4>
+                <p>Sobre Nós</p>
+                <p>Política de Privacidade</p>
+            </div>
+            <div>
+                <h4>PAGAMENTO</h4>
+                <img src="../assets/img/logo-visa.png">
+                <img src="../assets/img/logo-mastercard.png">
+                <img src="../assets/img/logo-pix.png">
+            </div>
+            <div>
+                <h4>SIGA-NOS</h4>
+                <img src="../assets/img/logo-instagram.png">
+                <img src="../assets/img/logo-facebook-cicle.png">
+                <img src="../assets/img/logo-youtube.png">
+            </div>
+            <div>
+                <h4>ATENDIMENTO AO CLIENTE</h4>
+                <img src="../assets/img/qr-code.png" alt="QR Code">
+            </div>
+        </div>
+        <p class="copyright">© 2023 Xhoii. Todos os direitos acadêmicos reservados</p>
+    </footer>
+
+</body>
+</html>
