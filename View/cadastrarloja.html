@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xhopii - Cadastrar Loja</title>
+    <link rel="stylesheet" href="../assets/img/style5.css">
+</head>
+<body>
+
+    <header class="topo">
+        <div class="logo-area">
+            <img src="../assets/img/logo.png" alt="Logo Xhopii">
+            <span>Sair</span>
+        </div>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Cadastro Cliente</a></li>
+                <li><a href="#">Cadastro Funcionário</a></li>
+                <li><a href="#">Cadastro Produto</a></li>
+                <li><a href="#">Ver Clientes</a></li>
+                <li><a href="#">Ver Funcionários</a></li>
+                <li><a href="#">Ver Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cadastro-section">
+            <div class="cadastro-container">
+                <h2>CADASTRAR NOVA LOJA</h2>
+                
+                <form class="form-cadastro" id="formCadastroLoja">
+                    <div class="form-grid">
+                        <!-- Coluna 1 -->
+                        <div class="form-coluna">
+                            <div class="form-grupo">
+                                <label for="nomeLoja">Nome da Loja *</label>
+                                <input type="text" id="nomeLoja" name="nomeLoja" required placeholder="Ex: Xhopii Store">
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="cnpj">CNPJ *</label>
+                                <input type="text" id="cnpj" name="cnpj" required placeholder="00.000.000/0000-00">
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="email">E-mail *</label>
+                                <input type="email" id="email" name="email" required placeholder="contato@loja.com.br">
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="telefone">Telefone *</label>
+                                <input type="tel" id="telefone" name="telefone" required placeholder="(00) 00000-0000">
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="segmento">Segmento *</label>
+                                <select id="segmento" name="segmento" required>
+                                    <option value="">Selecione o segmento</option>
+                                    <option value="moda">Moda e Vestuário</option>
+                                    <option value="eletronicos">Eletrônicos</option>
+                                    <option value="moveis">Móveis e Decoração</option>
+                                    <option value="alimentos">Alimentos e Bebidas</option>
+                                    <option value="esportes">Esportes e Lazer</option>
+                                    <option value="beleza">Beleza e Perfumaria</option>
+                                    <option value="outros">Outros</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Coluna 2 -->
+                        <div class="form-coluna">
+                            <div class="form-grupo">
+                                <label for="cep">CEP *</label>
+                                <input type="text" id="cep" name="cep" required placeholder="00000-000">
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="endereco">Endereço *</label>
+                                <input type="text" id="endereco" name="endereco" required placeholder="Rua, Avenida, etc.">
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="numero">Número *</label>
+                                <input type="text" id="numero" name="numero" required placeholder="123">
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="complemento">Complemento</label>
+                                <input type="text" id="complemento" name="complemento" placeholder="Apto, Sala, etc.">
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="bairro">Bairro *</label>
+                                <input type="text" id="bairro" name="bairro" required placeholder="Centro">
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="cidade">Cidade *</label>
+                                <input type="text" id="cidade" name="cidade" required placeholder="São Paulo">
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="estado">Estado *</label>
+                                <select id="estado" name="estado" required>
+                                    <option value="">Selecione</option>
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espírito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PR">Paraná</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Coluna 3 -->
+                        <div class="form-coluna">
+                            <div class="form-grupo">
+                                <label for="nomeResponsavel">Nome do Responsável *</label>
+                                <input type="text" id="nomeResponsavel" name="nomeResponsavel" required placeholder="Nome completo">
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="cpfResponsavel">CPF do Responsável *</label>
+                                <input type="text" id="cpfResponsavel" name="cpfResponsavel" required placeholder="000.000.000-00">
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="senha">Senha *</label>
+                                <input type="password" id="senha" name="senha" required placeholder="Mínimo 6 caracteres">
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="confirmarSenha">Confirmar Senha *</label>
+                                <input type="password" id="confirmarSenha" name="confirmarSenha" required placeholder="Confirme sua senha">
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="horarioFuncionamento">Horário de Funcionamento</label>
+                                <input type="text" id="horarioFuncionamento" name="horarioFuncionamento" placeholder="Ex: Seg-Sex 9h às 18h">
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="logo">Logo da Loja</label>
+                                <input type="file" id="logo" name="logo" accept="image/*" class="file-input">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-grupo form-termos">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="termos" name="termos" required>
+                            Concordo com os termos de uso e política de privacidade *
+                        </label>
+                    </div>
+
+                    <div class="form-botoes">
+                        <button type="submit" class="btn-cadastrar">CADASTRAR LOJA</button>
+                        <button type="reset" class="btn-limpar">LIMPAR</button>
+                        <button type="button" class="btn-cancelar" onclick="window.location.href='index.html'">CANCELAR</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="footer-grid">
+            <div>
+                <h4>ATENDIMENTO AO CLIENTE</h4>
+                <p>Central de Ajuda</p>
+                <p>Como Comprar</p>
+                <p>Frete e Entrega</p>
+            </div>
+            <div>
+                <h4>SOBRE A XHOPII</h4>
+                <p>Sobre Nós</p>
+                <p>Política de Privacidade</p>
+            </div>
+            <div>
+                <h4>PAGAMENTO</h4>
+                <img src="../assets/img/logo-visa.png">
+                <img src="../assets/img/logo-mastercard.png">
+                <img src="../assets/img/logo-pix.png">
+            </div>
+            <div>
+                <h4>SIGA-NOS</h4>
+                <img src="../assets/img/logo-instagram.png">
+                <img src="../assets/img/logo-facebook-cicle.png">
+                <img src="../assets/img/logo-youtube.png">
+            </div>
+            <div>
+                <h4>ATENDIMENTO AO CLIENTE</h4>
+                <img src="../assets/img/qr-code.png" alt="QR Code">
+            </div>
+        </div>
+        <p class="copyright">© 2023 Xhoii. Todos os direitos acadêmicos reservados</p>
+    </footer>
+
+    <script>
+        document.getElementById('formCadastroLoja').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const senha = document.getElementById('senha').value;
+            const confirmarSenha = document.getElementById('confirmarSenha').value;
+            
+            if (senha !== confirmarSenha) {
+                alert('As senhas não coincidem!');
+                return;
+            }
+            
+            if (senha.length < 6) {
+                alert('A senha deve ter pelo menos 6 caracteres!');
+                return;
+            }
+            
+            alert('Loja cadastrada com sucesso!');
+            // Aqui você pode adicionar a lógica para enviar os dados ao servidor
+        });
+
+        // Máscaras simples para os campos
+        document.getElementById('cnpj').addEventListener('input', function(e) {
+            let value = e.target.value.replace(/\D/g, '');
+            if (value.length > 14) value = value.slice(0, 14);
+            e.target.value = value;
+        });
+
+        document.getElementById('cpfResponsavel').addEventListener('input', function(e) {
+            let value = e.target.value.replace(/\D/g, '');
+            if (value.length > 11) value = value.slice(0, 11);
+            e.target.value = value;
+        });
+
+        document.getElementById('telefone').addEventListener('input', function(e) {
+            let value = e.target.value.replace(/\D/g, '');
+            if (value.length > 11) value = value.slice(0, 11);
+            e.target.value = value;
+        });
+
+        document.getElementById('cep').addEventListener('input', function(e) {
+            let value = e.target.value.replace(/\D/g, '');
+            if (value.length > 8) value = value.slice(0, 8);
+            e.target.value = value;
+        });
+    </script>
+</body>
+</html>
